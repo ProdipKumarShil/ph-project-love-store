@@ -1,0 +1,15 @@
+.fluid-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: brightness(70%);
+}
+.login-field{
+    position: relative;
+    backdrop-filter: blur(10px);
+    top: 10vh;
+    background-color: rgba(255, 255, 255, 0.257);
+    
+}
