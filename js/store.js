@@ -1,1 +1,3 @@
-console.log('store js')
+deleteCard('roseDismiss')
+deleteCard('chocolateDismiss')
+deleteCard('dairyDismiss')
