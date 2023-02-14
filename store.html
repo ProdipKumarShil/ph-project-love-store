@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Success</h1>
 
+<body>
+
+    <!-- main section -->
+    <main class="max-w-screen-xl mx-auto">
+        <!-- Money section -->
+        <div class="grid md:grid-cols-2">
+            <div class="bg-[#fea0ba] pl-16 w-11/12 mx-auto rounded-xl my-4">
+                <div class="">
+                    <h1 class="text-3xl font-semibold my-4">Your Balance</h1>
+                    <h1 class="text-5xl font-semibold my-4">$<span>3540</span></h1>
+                    <p class="font-semibold font-mono italic pb-2" >Enter '102' to get 20% discount</p>
+                </div>
+            </div>
+            <div class="bg-[#fea0ba] pl-16 w-11/12 mx-auto rounded-xl my-4">
+                <h1 class="text-3xl font-semibold my-4">Total Cost</h1>
+                <h1 class="text-5xl font-semibold my-4">$<span>00</span></h1>
+                <input class="p-2 rounded-xl font-bold mr-4" type="text" placeholder="Enter pomo code">
+                <button
+                    class="bg-[#1434ab] hover:bg-[#0d2371] py-2 px-3 rounded-xl text text-slate-400 font-bold mb-3">Enter
+                    Code</button>
+            </div>
+        </div>
+
+        
+    </main>
     <!-- scripts -->
     <script src="./tailwind/tailwind.js"></script>
     <script src="./js/utilities.js"></script>
     <script src="./js/store.js"></script>
 </body>
+
 </html>
