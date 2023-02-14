@@ -17,13 +17,13 @@
             <div class="bg-[#fea0ba] pl-16 w-11/12 mx-auto rounded-xl my-4">
                 <div class="">
                     <h1 class="text-3xl font-semibold my-4">Your Balance</h1>
-                    <h1 class="text-5xl font-semibold my-4">$<span>3540</span></h1>
+                    <h1 class="text-5xl font-semibold my-4">$<span id="totalBalance">3540</span></h1>
                     <p class="font-semibold font-mono italic pb-2">Enter '102' to get 20% discount</p>
                 </div>
             </div>
             <div class="bg-[#fea0ba] pl-16 w-11/12 mx-auto rounded-xl my-4">
                 <h1 class="text-3xl font-semibold my-4">Total Cost</h1>
-                <h1 class="text-5xl font-semibold my-4">$<span>00</span></h1>
+                <h1 class="text-5xl font-semibold my-4">$<span id="totalCost">00</span></h1>
                 <input class="p-2 rounded-xl font-bold mr-4" type="text" placeholder="Enter pomo code">
                 <button
                     class="bg-[#1434ab] hover:bg-[#0d2371] py-2 px-3 rounded-xl text text-slate-400 font-bold mb-3">Enter
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class=" flex justify-between mt-4">
-                        <button class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
+                        <button id="chocolateBuyBtn" class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
                         <button id="chocolateDismiss"  class="w-1/2 border-2 border-[#1f1a5d] hover:bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 ml-4">Dismiss</button>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
             <div class="mx-auto bg-[#b5a0fe] w-11/12 rounded-xl py-8 shadow-2xl mb-3">
                 <img src="./imges/card-img/rose.png" alt="">
                 <div class="px-8 pt-8">
-                    <h1 class="text-5xl font-semibold text-slate-800">Chocolate</h1>
+                    <h1 class="text-5xl font-semibold text-slate-800">Rose</h1>
                     <h1 class="text-3xl font-semibold text-slate-800 mt-2">Price: $100</h1>
                     <div class="flex justify-start gap-4 my-3">
                         <p class="text-xl font-bold text-slate-800">Rating</p>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class=" flex justify-between mt-4">
-                        <button class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
+                        <button id="roseBuyBtn" class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
                         <button id="roseDismiss"  class="w-1/2 border-2 border-[#1f1a5d] hover:bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 ml-4">Dismiss</button>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
             <div class="mx-auto bg-[#b5a0fe] w-11/12 rounded-xl py-8 shadow-2xl mb-3">
                 <img src="./imges/card-img/dairy.png" alt="">
                 <div class="px-8 pt-8">
-                    <h1 class="text-5xl font-semibold text-slate-800">Chocolate</h1>
+                    <h1 class="text-5xl font-semibold text-slate-800">Dairy</h1>
                     <h1 class="text-3xl font-semibold text-slate-800 mt-2">Price: $100</h1>
                     <div class="flex justify-start gap-4 my-3">
                         <p class="text-xl font-bold text-slate-800">Rating</p>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class=" flex justify-between mt-4">
-                        <button class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
+                        <button id="dairyBuyBtn" class="w-1/2 hover:bg-[#312a92] bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 mr-4 ">Buy</button>
                         <button id="dairyDismiss" class="w-1/2 border-2 border-[#1f1a5d] hover:bg-[#1f1a5d] rounded-xl font-semibold text-2xl py-4 ml-4">Dismiss</button>
                     </div>
                 </div>
